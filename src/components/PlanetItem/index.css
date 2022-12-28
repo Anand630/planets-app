@@ -1,0 +1,78 @@
+.slider-container {
+  padding: 30px;
+  height: 500px;
+  min-width: 500px;
+  max-width: 700px;
+}
+
+.planets-heading {
+  color: #05acff;
+  font-family: Roboto;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 767px) {
+  .slider-container {
+    padding: 10px;
+    width: 80%;
+  }
+
+  .planets-heading {
+    margin-bottom: 15px;
+    font-size: 28px;
+  }
+}
+
+.planet-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+
+.planet-image {
+  width: 350px;
+}
+
+.planet-name {
+  font-family: Roboto;
+  color: #f8fafc;
+  font-weight: 500;
+}
+
+.planet-description {
+  font-family: Roboto;
+  color: #f1f5f9;
+}
+
+@media (max-width: 767px) {
+  .planet-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .planet-image {
+    width: 300px;
+  }
+
+  .planet-name {
+    font-family: Roboto;
+    color: #f8fafc;
+    font-weight: 500;
+    font-size: 28px;
+  }
+
+  .planet-description {
+    font-family: Roboto;
+    color: #f1f5f9;
+    font-size: 16px;
+  }
+}
